@@ -18,6 +18,11 @@
     height: 70px;
     /* background-color: yellowgreen; */
    }
+    .side_cont_full{
+    position: relative;
+    left: 25px;
+    /* background-color: aquamarine; */
+   }
    .breath_text_dec{
     font-size: 40px;
    }
@@ -28,13 +33,13 @@
    }
    .right_card{
     position: relative;
-    right: 310px;
+    right: 295px;
     top: 300px;
    }
    .alena_patel{
     width: 320px;
     position: relative;
-    left:10px;
+    left:30px;
     top: 200px;
     z-index: 1;
    
