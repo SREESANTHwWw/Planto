@@ -1,0 +1,830 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+     scroll-behavior: smooth;
+}
+.nav_bar{
+    width: 100%;
+    height: 90px;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width: 95%;
+    height: 120px;
+    /* background-color: brown; */
+    display: flex;
+    justify-content: space-between;
+    
+}
+.logo_img{
+    width: 48px;
+    height: 48px;
+}
+.logo_and_name{
+    width: 160px;
+    height: 120px;
+    display: flex;
+    /* background-color: yellowgreen; */
+    align-items: center;
+}
+.logo_and_name_1{
+    width: 160px;
+    height: 120px;
+    display: flex;
+    /* background-color: yellowgreen; */
+    align-items: center;
+
+}
+.plant_text{
+    width: 99px;
+    height: 34px;
+    font-weight: 700;
+    color: aliceblue;
+    font-size: 28px;
+}
+.scnd_con{
+    width: 800px;
+    height: 120px;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.lmgs_nav{
+    width: 26px;
+    height: 26px;
+}
+.options{
+    width: 110px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    /* background-color: violet; */
+}
+.drop_btn{
+    width: 149px;
+    height: 29px;
+    border: none;
+    background: transparent;
+   color: aliceblue;
+   font-size: 24px;
+    font-weight: 500;
+}
+.opt_dec{
+    font-size: 24px;
+    font-weight: 500;
+    color: aliceblue;
+}
+.main_body{
+    width: 100%;
+    height: 2000px;
+    background-image: url(image/4e44f85e1a04562f820f1492949a1257.jpg);
+    background-repeat: no-repeat;
+    
+    
+   
+   
+}
+.third_con{
+    width: 200px;
+    height: 120px;
+    /* background-color: blue; */
+    display: flex ;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav_btns{
+    width: 27px;
+    height: 28px;
+    /* background-color: cadetblue */
+
+}
+.nav_btns_last{
+    width: 31px;
+    /* height: 28px;
+    background-color: cadetblue; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items:end;
+
+}
+.first_line{
+    width: 31px;
+    height: 5px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 14px;
+}
+.secnd_line{
+    width: 23px;
+    height: 5px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 14px;
+}
+.content{
+    width: 100%;
+    height: 600px;
+    /* background-color: violet; */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.content_one{
+    width: 95%;
+    height: 500px;
+    /* background-color: wheat; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.side_cont_full{
+    width: 893px;
+    height: 400px;
+    /* background-color: yellow; */
+}
+.breath_text{
+    width: 893px;
+    height: 170px;
+    /* background-color: yellowgreen; */
+  
+}
+.text_in_box_breath{
+    width: 784px;
+    height: 70px;
+    /* background-color: aqua; */
+    color: aliceblue;
+}
+.explore_btn_and_live{
+    width: 300px;
+    height: 60px;
+    /* background-color: rgb(23, 198, 0); */
+    /* display: flex;
+    flex-direction: row;
+    gap: 5px; */
+}
+#explore_btn_des{
+    width: 137px;
+    height: 40px;
+    border-radius: 12px;
+    background: transparent;
+    border-color: aliceblue;
+    border-style: double;
+    color: aliceblue;
+}
+.play_btn{
+    width: 60px;
+    height: 60px;
+}
+.live_demo_text{
+    color: aliceblue;
+}
+.breath_text_dec{
+    font-size: 108px;
+    font-weight: 600;
+    color: aliceblue;
+
+}
+.right_card{
+    width: 350px;
+    height: 420px;
+    position: relative;
+    top: 50px;
+    border-radius: 60px;
+   /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.114);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.plan_img{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    left: 20px;
+    bottom: 70px;
+}
+#buy_btn_des{
+    width: 137px;
+    height: 40px;
+    border-radius: 12px;
+    background: transparent;
+    border-color: aliceblue;
+    border-style: double;
+    color: aliceblue;
+
+}
+.right_card_img{
+    width: 300px;
+    height: 250px;
+    /* background-color: tomato; */
+}
+.right_card_cont{
+    width: 270px;
+    height: 140px;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.calathea_plant_text{
+    width: 270px;
+    height: 25px;
+    font-size: 23px;
+    color: aliceblue;
+    /* background-color: aqua; */
+    position: relative;
+    left: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.arrow_img{
+    width: 20px;
+    height: 20px;
+}
+.trendy_house{
+    color: aliceblue;
+}
+.last_dots{
+    width: 270px;
+    height: 60px;
+    /* background-color: turquoise; */
+    position: relative;
+    bottom: 15px;
+    left: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+}
+.card_line{
+    width: 15px;
+    height: 5px;
+    border-radius: 20px;
+    background-color: aliceblue;
+}
+.dot{
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: aliceblue;
+    font-size: 13px;
+}
+.alena_patel{
+    width: 400px;
+    height: 150px;
+    position: relative;
+    left: 60px;
+    bottom: 50px;
+    border-radius: 60px;
+    background: rgba(255, 255, 255, 0.114);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.alena_patel_2{
+    width: 400px;
+    height: 300px;
+    border-radius: 60px;
+    background: rgba(255, 255, 255, 0.114);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.alena_patel_img{
+    width: 50px;
+    height: 56px;
+    border-radius: 50%;
+}
+.alena_patel_img_2{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+
+}
+.patel_and_stars{
+    width: 400px;
+    height: 70px;
+    /* background-color: rgb(255, 0, 0); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.patel_adj{
+    width: 60% ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.stars_{
+    width: 80px;
+    height: 40px;
+}
+.alen_name_and_star{
+    width: 160px;
+    height: 40px;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 10px;
+    color: aliceblue;
+    
+}
+.about_alena{
+    width: 360px;
+    height: 60px;
+    /* background-color: violet; */
+    color: aliceblue;
+}
+
+.our_trendy_plant{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    background: transparent;
+}
+.our_trendy_plant_2{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    background: transparent;
+
+}
+.our_plant_text{
+    font-size: 55px;
+    color: aliceblue;
+    font-weight: 600;
+}
+.Our_adj{
+    width: 30%;
+    height: 70px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content:center ;
+}
+.Our_adj_2{
+    width: 30%;
+    height: 70px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content:center;
+}
+.for_small_dec{
+    width: 100%;
+    height: 500px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.small_dec_adj{
+    width: 95%;
+    height: 400px;
+    
+    border-radius: 60px;
+    background: rgba(255, 255, 255, 0.114);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+.next_pant_img{
+    width: 500px;
+    height: 500px;
+}
+.next_pant_img_3{
+    width: 500px;
+    height: 500px;
+
+}
+.next_plant_div{
+    width: 550px;
+    height: 400px;
+    /* background-color: yellow; */
+    display: flex;
+    
+    align-items:center ;
+    position: relative;
+    bottom: 90px;
+    right: 90px;
+}
+.buy_inf{
+    width: 600px;
+    height: 400px;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+.buy_inf_one{
+    width: 600px;
+    height: 400px;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+
+}
+.small_dec_text{
+    font-size: 25px;
+    color: aliceblue;
+    font-weight: 500;
+}
+.small_plant_contet{
+    color: aliceblue;
+}
+.rs{
+    font-size: 28px;
+    color: aliceblue;
+    font-weight: 500;
+}
+.rs_2{
+    font-size: 23px;
+    color: aliceblue;
+    font-weight: 400;
+
+}
+.bag_dec{
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border-color: aliceblue;
+    border-style: double;
+}
+.buttons_small{
+    width: 200px;
+    height: 90px;
+    /* background-color: rgb(255, 0, 0); */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.bag_img{
+    width: 30px;
+    height: 30px;
+}
+.top_selling{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: yellow; */
+}
+.top_selling_2{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.top_sell_adj{
+    width: 95%;
+    height: 400px;
+    /* background-color: violet; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.top_items{
+    width: 400px;
+    height: 450px;
+    border-radius: 60px;
+    background: rgba(255, 255, 255, 0.114);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.top_selling_plan_img{
+    width: 300px;
+    height: 300px;
+   
+
+}
+.Plant_imgs{
+    width: 400px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: springgreen; */
+    position: relative;
+    bottom: 40px;
+}
+.top_sell_plant_buy{
+    width: 400px;
+    height: 200px;
+    /* background-color: slateblue; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sell_plant_name{
+    font-size: 24px;
+    color: aliceblue;
+}
+.price_and_tag{
+    width: 300px;
+    height: 200px;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.seond_body{
+    width: 100%;
+    height: 600px;
+    background-color: rgb(19,27,14)
+}
+.third_body{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(19,27,14)
+
+}
+.fourth_body_4{
+    width: 100%;
+    height: 100vh;
+    background-color:rgb(19,27,14) ;
+}
+.review_main{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aqua; */
+
+}
+.review_adj{
+    width: 95%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* background-color: blue; */
+
+}
+.fifth_body{
+    width: 100%;
+    height: 100vh;
+    background-color:rgb(19,27,14) ;
+
+}
+.o2_Plants{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: black; */
+}
+.o2_plant_adj{
+    width: 75%;
+    height: 400px;
+    /* background-color: aqua; */
+    border-radius: 60px;
+    background: rgba(255, 255, 255, 0.114);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    display: flex;
+    justify-content: space-around;
+}
+.last_plant{
+    width: 450px;
+    height: 400px;
+    /* background-color: yellow; */
+}
+.last_plant_content{
+    width: 650px;
+    height: 400px;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.last_plant_img{
+    width: 450px;
+    height: 450px;
+    position: relative;
+    bottom: 50px;
+}
+.we_small{
+    width: 650px;
+    height: 40px;
+    /* background-color: brown; */
+
+}
+.we_small_text{
+    color: aliceblue;
+    font-size: 25px;
+    font-weight: 600;
+}
+.last_plant_text_1{
+    width: 650px;
+    height: 60px;
+    /* background-color: violet; */
+    color: aliceblue;
+}
+.last_plant_text_2{
+    width: 650px;
+    height: 60px;
+    /* background-color: cadetblue; */
+    color: aliceblue;
+
+}
+.btn_carovsel{
+    width: 650px;
+    height: 60px;
+    /* background-color: teal; */
+    display: flex;
+    justify-content: space-between;
+}
+.Btn_only{
+    width: 200px;
+    height:60px;
+    /* background-color: springgreen; */
+    display: flex;
+    align-items: center;
+}
+.carvosel_dummy{
+    width: 150px;
+    height: 60px;
+    /* background-color: tomato; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.arrow_size{
+    width: 20px;
+    height: 20px;
+    rotate: 180deg;
+}
+.arrow_size_2{
+    width: 20px;
+    height: 20px;
+
+}
+._one_by_bar{
+    color: aliceblue;
+}
+.dots_main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+.sixth_body{
+    width: 100%;
+    height: 400px;
+    background-color:rgb(25, 36, 18) ;
+}
+.footer_main{
+    width: 100%;
+    height: 400px;
+    /* background-color: rgb(225, 37, 37); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer_adj{
+    width: 85%;
+    height: 300px;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   
+}
+.first_boxs{
+    width: 500px;
+    height: 300px;
+    /* background-color: teal; */
+    display: flex;
+    flex-direction: column;
+}
+._pngs{
+    width: 30px;
+    height: 30px;
+}
+._png_btns{
+    width: 30px;
+    height: 30px;
+    border: none;
+    background: transparent;
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: 400;
+}
+._png_btn_only{
+    width: 200px;
+    height: 120px;
+    /* background-color: violet; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.first_box_content{
+    width: 500px;
+    height: 60px;
+    /* background-color: yellowgreen; */
+    color: aliceblue;
+}
+.plant_text_1{
+    font-size: 48px;
+    font-weight: 700;
+    color: aliceblue;
+}
+.secnd_box{
+    width: 200px;
+    height: 300px;
+    /* background-color: violet; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    
+}
+.third_box{
+    width: 400px;
+    height: 300px;
+    /* background-color: springgreen; */
+    display: flex;
+    flex-direction: column;
+}
+.linsk_1{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 17px;
+}
+.qicky{
+    font-weight: 700;
+    font-size: 23px;
+    color: aliceblue;
+}
+.for_up{
+    width: 300px;
+    height: 120px;
+}
+.emil_1{
+    width: 300px;
+    height: 47px;
+    padding: 10px;
+    background: transparent;
+    border-style: double;
+    border: 3px solid white;
+    outline: none;
+    color: aliceblue;
+}
+::placeholder{
+    font-size: 15px;
+    color: aliceblue;
+    font-weight: 500;
+}
+.sub{
+    width: 100px;
+    height: 38px;
+    position: relative;
+    bottom: 42px;
+    left: 195px;
+    border-radius: 12px;
+    border: 1px solid white;
+    border-style: double;
+
+}
+.pLanto_rights{
+    color: aliceblue;
+}

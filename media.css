@@ -1,0 +1,316 @@
+@media (max-width:500px){
+
+    .scnd_con{
+        display: none;
+    }
+    .third_con{
+        width: 200px;
+        height: 90px;
+        /* background-color: aqua; */
+        display: flex;
+        justify-content: space-evenly;
+        position: relative;
+        top: 16px;
+        right: 15px;
+    }
+   .breath_text{
+    width: 300px;
+    height: 70px;
+    /* background-color: yellowgreen; */
+   }
+   .breath_text_dec{
+    font-size: 40px;
+   }
+   .text_in_box_breath{
+    width: 320px;
+    /* background-color: aqua; */
+    text-align: start;
+   }
+   .right_card{
+    position: relative;
+    right: 310px;
+    top: 300px;
+   }
+   .alena_patel{
+    width: 320px;
+    position: relative;
+    left:10px;
+    top: 200px;
+    z-index: 1;
+   
+    /* background-color: aqua; */
+   }
+   .our_trendy_plant{
+    width: 300px;
+    height: 50px;
+    position: relative;
+    top: 230px;
+    left: 20px;
+    /* background-color: bisque; */
+   }
+   .our_trendy_plant_2{
+    width: 300px;
+    height: 50px;
+    position: relative;
+    top: 400px;
+    left: 20px;
+   }
+   .Our_adj{
+    width: 200px;
+    height: 50px;
+    /* background-color: aqua; */
+   }
+   .Our_adj_2{
+    width: 200px;
+    height: 50px;
+
+   }
+   .our_plant_text{
+    font-size: 23px;
+   }
+   .plan_img{
+    margin: -20px;
+    padding: 10px;
+   }
+   .arrow_img{
+   position: relative;
+   right:50px;
+   }
+   .last_dots{
+    position: relative;
+    left: 10px;
+    /* background-color: aqua; */
+   }
+   .about_alena{
+    width: 290px;
+    /* background-color: rgb(255, 247, 0); */
+    font-size: 15px;
+   }
+   .for_small_dec{
+    position: relative;
+    top: 400px;
+   
+   }
+   .small_dec_adj{
+    display: flex;
+    flex-direction: column;
+
+   }
+   .next_pant_img{
+    width: 350px;
+    height: 350px;
+    position: relative;
+    left: 60px;
+   }
+   .small_dec_adj{
+    position: relative;
+    right: 10px;
+    width: 300px;
+    height: 460px;
+   }
+   .buy_inf{
+    width: 300px;
+    height: 300px;
+    /* background-color: aquamarine; */
+    position: relative;
+    bottom: 100px;
+    display: flex;
+    align-items: center;
+   }
+   .small_dec_text{
+    font-size: 15px;
+   }
+   .small_plant_contet{
+    font-size: 12px;
+    margin-left: 10px;
+   }
+   .rs{
+    font-size: 20px;
+   }
+   .next_pant_img_3{
+    width: 350px;
+    height: 350px;
+    position: relative;
+    bottom: 190px;
+    left: 60px;
+   }
+   .buy_inf_one{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    top: 270px;
+    display: flex;
+    align-items: center;
+   }
+   .top_sell_adj{
+    width: 300px;
+    height: 190vh;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    position: relative;
+    right: 10px;
+    
+
+   }
+   .top_items{
+    width: 300px;
+   }
+   .top_selling{
+    position: relative;
+    top: 800px;
+    background-color: rgba(19,27,14);
+   }
+   .top_selling_2{
+    position: relative;
+    top: 400px;
+    background-color: rgba(19,27,14);
+
+   }
+   .seond_body{
+    height: 300vh;
+
+   }
+   .third_body{
+    height: 170vh;
+    display: flex;
+    justify-content: space-between;
+
+   }
+   .Plant_imgs{
+    position: relative;
+    right:50px;
+   }
+   .top_sell_plant_buy{
+    position: relative;
+    right: 60px
+   }
+  
+   .review_adj{
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 500px;
+    gap: 10px;
+    left: 20px;
+    /* background-color: aqua; */
+   }
+   .alena_patel_2{
+    width: 300px;
+    height: 500px;
+    
+   }
+   .fourth_body_4{
+    height: 140vh;
+    background-color: rgba(19,27,14);
+   }
+  .fifth_body{
+    height: 200vh;
+  }
+  /* .o2_Plants{
+    height: 600px;
+  } */
+  .o2_plant_adj{
+    width: 320px;
+    height: 500px;
+    position: relative;
+    top: 400px;
+    right: 10px;
+  }
+  .last_plant_img{
+    width: 250px;
+    height: 250px;
+    position: relative;
+    left: 17px;
+   
+  }
+  .last_plant_content{
+    width: 300px;
+    
+    position: relative;
+    right: 210px;
+    top: 130px;
+    /* background-color: brown; */
+  }
+  .we_small{
+    width: 250px;
+    height: 70px;
+  }
+  .we_small_text{
+    font-size: 15px;
+   
+  }
+  .last_plant_text_1{
+    width: 250px;
+    font-size: 12px;
+    height: 70px;
+  }
+  .last_plant_text_2{
+    width: 250px;
+    font-size: 12px;
+    height: 70px;
+
+  }
+  .btn_carovsel{
+    width: 250px;
+    height: 70px;
+  }
+  .dots_main{
+    width: 300px;
+    position: relative;
+    top: 400px;
+    left: 10px;
+  }
+  .footer_adj{
+    display: flex;
+    flex-direction: column;
+    height: 160vh;
+    /* background-color: yellow; */
+  }
+  .sixth_body{
+    height: 140vh;
+  }
+  .first_boxs{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    top: 200px;
+  }
+  .secnd_box{
+    position: relative;
+    top: 200px;
+    left: 30px;
+  }
+  .first_box_content{
+    width: 300px;
+  }
+  .third_box{
+    width: 300px;
+    position: relative;
+    top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .sub{
+    position: relative;
+    
+    left: 90px;
+    z-index: 1;
+  }
+  .for_up{
+    display: flex;
+    justify-content: center;
+  }
+  ._png_btn_only{
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+  }
+  .logo_and_name_1{
+    position: relative;
+    left: 28px;
+  }
+
+}
